@@ -6,8 +6,41 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Us</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
 </head>
 <body>
+<h1>Additional information about QuickDash</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus blanditiis deleniti deserunt dolore doloribus earum eius eveniet harum impedit labore laudantium perferendis perspiciatis, praesentium quo repellendus repudiandae suscipit. Animi, doloremque.</span><span>Accusantium at atque aut blanditiis consequuntur natus omnis voluptatem. Blanditiis ducimus itaque minima qui reiciendis tenetur, ut? Aspernatur iste nihil odio porro quaerat tenetur ullam vero! Ab asperiores libero quidem.</span></p>
+<h2>Why choose us?</h2>
+<div id="main">
+
+    <div class="mydiv">
+        <img src="{% static 'assets/rt.jpg' %}" alt="" class="image">
+        <h3>Tiger</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illo magni quae quas quasi, quia reprehenderit. Aliquam enim ex laudantium nemo praesentium vero? Aut, in optio perspiciatis ratione rerum temporibus.</span><span>Aliquam aliquid distinctio, dolores ea eum impedit labore laboriosam laborum libero minus nihil obcaecati, officiis quam qui quis ratione rerum sed similique sint totam unde ut voluptas voluptate voluptates voluptatibus.</span></p>
+        <button>More</button>
+
+    </div>
+    <div class="mydiv">
+        <img src="{% static 'assets/img.png' %}" alt="" class="image">
+        <h3>Image</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illo magni quae quas quasi, quia reprehenderit. Aliquam enim ex laudantium nemo praesentium vero? Aut, in optio perspiciatis ratione rerum temporibus.</span><span>Aliquam aliquid distinctio, dolores ea eum impedit labore laboriosam laborum libero minus nihil obcaecati, officiis quam qui quis ratione rerum sed similique sint totam unde ut voluptas voluptate voluptates voluptatibus.</span></p>
+        <button>More</button>
+    </div>
+    <div class="mydiv">
+      <img src="{% static 'assets/img_2.png' %}" alt="" class="image">
+        <h3>Watch</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illo magni quae quas quasi, quia reprehenderit. Aliquam enim ex laudantium nemo praesentium vero? Aut, in optio perspiciatis ratione rerum temporibus.</span><span>Aliquam aliquid distinctio, dolores ea eum impedit labore laboriosam laborum libero minus nihil obcaecati, officiis quam qui quis ratione rerum sed similique sint totam unde ut voluptas voluptate voluptates voluptatibus.</span></p>
+        <button>More</button>
+    </div>
+
+
+
+
+</div>
+
 
 </body>
 </html>
