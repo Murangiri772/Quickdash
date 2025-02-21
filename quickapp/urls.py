@@ -6,8 +6,11 @@ from quickapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('index/', views.index),
-    path('gallary/', views.gallary),
-    path('about/', views.about),
+    path('', views.index, name='home'),
+    path('gallary/', views.gallary, name='gallary'),
+    path('about/', views.about, name='about'),
+    path('form/', views.form, name='form'),
+    path('product/', views.product, name='product'),
+    path('services/', views.services, name='services'),
 
 ]

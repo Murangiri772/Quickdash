@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/form.css' %}">
+</head>
+<body>
+<a href="{% url 'index' %}">index</a>
+<a href="{% url 'gallary' %}">gallary</a>
+<a href="{% url 'form' %}">form</a>
+<a href="{% url 'product' %}">product</a>
+
+
+<form action="">
+    <ligend>REGISTRATION FORM</ligend>
+  <br><br>
+  <label for="fname">First Name:</label>
+  <input type="text" id="fname"  required="required">
+  <br><br>
+  <label for="sname">Last Name:</label>
+  <input type="text" id="sname"  required="required">
+  <br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email"  required="required">
+  <br><br>
+  <label for="pwd">Password:</label>
+  <input type="password" id="pwd"  required="required">
+  <br><br>
+     <label for="pwd">Re-type Password:</label>
+  <input type="password" id="pwd" required="required">
+  <br><br>
+  <label for="phone">Contact:</label>
+  <input type="tel" id="phone"  required="required">
+  <br><br>
+  <label for="gnd">Gender:</label>
+  <select name="" id="gnd">
+    <option value="" disabled="disable">Choose one</option>
+    <option value="Male">Male</option>
+    <option value="Female">Fema;e</option>
+    <option value="BOth">Both</option>
+
+
+  </select>
+    <br><br>
+    <button>Submit</button>
+</form>
+</body>
+</html>

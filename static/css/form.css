@@ -1,0 +1,32 @@
+form{
+
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px#0e1313;
+    background-color: white;
+    
+}
+ligend{
+    color: green;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+button{
+    background-color: lime;
+    width: 100%;
+    height: 40px;
+    border-radius:10px ;
+    margin-left: 10px;
+
+}
+input[type=text],input[type=email],input[type=password],input[type=password],input[type=number],input[type=tel],
+select {
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 6px black;
+    padding-left: 10px;
+}

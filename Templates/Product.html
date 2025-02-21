@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>product</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+</head>
+<body>
+<a href="{% url 'index' %}">index</a>
+<a href="{% url 'gallary' %}">gallary</a>
+<a href="{% url 'form' %}">form</a>
+<a href="{% url 'about' %}">about</a>
+<h1 class="text-center text-danger mt-3 ">PRODUCT INFORMATION</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos exercitationem, facilis impedit incidunt, laboriosam maiores minima nulla porro possimus provident, quaerat qui ut? Ducimus, perferendis, qui. Ad dolorem quasi quis?</span><span>Autem consequuntur corporis cupiditate deleniti dignissimos dolore et, excepturi illo ipsum itaque laudantium minima necessitatibus non nulla quaerat quisquam repellat, sed temporibus, vero voluptates? At dolorem fugiat id quae voluptatem.</span></p>
+<table class="table container">
+
+    <th>Product ID</th>
+    <th>Product Name</th>
+    <th>Product Quality</th>
+    <th>Product Quantity</th>
+    <tr class="table-info">
+        <td>1</td>
+        <td>Wheat</td>
+        <td>Good</td>
+        <td>200 Bags</td>
+    </tr>
+    <tr class="table-danger">
+        <td>2</td>
+        <td>Rice</td>
+        <td>Good</td>
+        <td>250 Bags</td>
+    </tr>
+    <tr class="table-warning">
+        <td>3</td>
+        <td>Sugar</td>
+        <td>Good</td>
+        <td>200 Bags</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Sugar</td>
+        <td>Good</td>
+        <td>200 Bags</td>
+    </tr>
+    <tr class="table-success">
+        <td>5</td>
+        <td>Sugar</td>
+        <td>Good</td>
+        <td>200 Bags</td>
+    </tr>
+
+
+
+
+</table>
+
+
+</body>
+</html>

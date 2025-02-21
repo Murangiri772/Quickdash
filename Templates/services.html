@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Services</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+</head>
+<body>
+<h1 class="text-center mt-3">Our Services</h1>
+<div class="d-flex">
+    <div class="col-4 ms-2">
+       <img src="{% static 'assets/img.png' %}" alt="">
+        <div>
+            <h2 class="text-center">Design</h2>
+        <p>Deliver the best user experience with our </p>
+        <p>carefully designed responsive websites and</p>
+        <p class="ms-5"> applications!</p>
+        </div>
+       <div>
+            <button class="btn text-danger btn-outline-danger ms-5">See portfolio>></button>
+       </div>
+    </div>
+    <div class="col-4">
+       <img src="{% static 'assets/img_1.png' %}" alt="">
+        <div>
+            <h2 class="text-center">DEvelopment</h2>
+        <p>You need software that works on every </p>
+        <p>device,leverage the latest technologies </p>
+        <p class="ms-3">and the most powerful tools!</p>
+        </div>
+       <div>
+           <button class="btn text-danger btn-outline-danger ms-5">See project >></button>
+
+       </div>
+    </div>
+    <div class="col-4 ">
+      <img src="{% static 'assets/img_2.png' %}" alt="">
+       <div>
+            <h2 class="text-center">Analyst</h2>
+        <p>Consult our experts to set up proper goals</p>
+        <p class="ms-2">and find the best stack for your nex</p>
+        <p class="ms-5">application!</p>
+       </div>
+        <div>
+            <button class="btn text-danger btn-outline-danger ms-5">See testmonials >></button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
